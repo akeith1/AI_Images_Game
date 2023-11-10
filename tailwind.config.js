@@ -15,8 +15,17 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            animation: {
+                fadeIn: 'fadeIn 3s ease-in forwards',
+              },
+              keyframes: {
+                fadeIn: {
+                  '0%': { opacity: 0 },
+                  '100%': { opacity: 1 },
+                },
+              },
         },
     },
 
-    plugins: [forms],
+    plugins: [forms,require("daisyui")],
 };
