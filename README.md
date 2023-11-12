@@ -1,3 +1,8 @@
+This a web app that is a game where you try to guess one of the words that was used to generate a certain AI image.
+In Single-Player a randomly generated image shows up and you try to guess what it might be.
+In Multi-player, you put in your own words to generate an AI image and someone else tries to guess the words that you used to create it
+
+
 To run a Laravel project in the console, you can follow these steps³⁴:
 
 1. **Navigate to your project directory**: Open your console and navigate to the root directory of your Laravel project using the `cd` command.
