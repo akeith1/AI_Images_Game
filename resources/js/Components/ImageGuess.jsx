@@ -5,7 +5,7 @@ export default function ImageGuess({answer, score}){
     const [value, setValue] = useState('');
     async function submit(e) {
         e.preventDefault();
-        const correctness = value === answer
+        const correctness = answer.contains(value)
         await window.axios.post('/check', {
             correct: score.correct,
             wrong: score.wrong,
