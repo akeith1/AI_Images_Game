@@ -65,6 +65,7 @@ class GameController extends Controller
         
         $response = $client->request('POST', $url, [
             'json' => [
+                "model" => "dall-e-3",
                 'prompt' => $input, 
                 'n' => 1,
                 'size' => '1024x1024'
