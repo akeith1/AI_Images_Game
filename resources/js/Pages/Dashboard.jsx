@@ -10,15 +10,16 @@ export default function Dashboard({ auth }) {
             <Head title="Dashboard" />
 
             <div className="py-12">
-                <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg flex justify-between">
-                        <div className="p-6 text-gray-900">You're logged in!</div>
-    
-                        <Link  href={route('single-player')} className="rounded-lg text-2xl bg-blue-500 text-white border-none">Singleplayer: guess which words were used to generate the image!</Link>
-                        <a href={'/game'} className="rounded-lg text-2xl bg-blue-500 text-white border-none">Multiplayer: generate an image and have others guess your words!</a>
-                    </div>
-                </div>
-            </div>
+    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <div className="bg-white shadow-sm sm:rounded-lg p-6 mb-4 text-gray-900 block">You're logged in!</div>
+        <div className="overflow-hidden shadow-sm sm:rounded-lg justify-between">
+           
+
+            <Link  href={route('single-player')} className="rounded-lg text-2xl p-8 mb-4 bg-blue-500 text-white border-none block">Singleplayer: guess which words were used to generate the image!</Link>
+            <a href={'/game'} className="rounded-lg text-2xl p-8 bg-blue-500 text-white border-none block">Multiplayer: generate an image and have others guess your words!</a>
+        </div>
+    </div>
+</div>
         </AuthenticatedLayout>
     );
 }
