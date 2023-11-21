@@ -1,3 +1,4 @@
+![single_player](https://github.com/akeith1/AI_Images_Game/assets/65135758/4e6f0ba1-748a-4e70-86ba-03ac1a26126f)
 This a web app that is a game where you try to guess one of the words that was used to generate a certain AI image.
 In Single-Player a randomly generated image shows up and you try to guess what it might be.
 In Multi-player, you put in your own words to generate an AI image and someone else tries to guess the words that you used to create it
